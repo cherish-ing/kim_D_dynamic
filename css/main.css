@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* General */
+
+body {
+	margin: 0px;
+	border: 0px;
+}
+
+h1, h2, h3 {
+  font-family: 'Ramaraja', serif;
+	color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hidden {
+  display: none;
+}
+
+#container {
+	width: 100%;
+	height: 800px;
+	background-color: black;
+	background-image: url(../images/bg2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+/* Header */
+
+#head {
+	padding: 2em 4em 2em 4em;
+  background-color: #425277;
+}
+
+#head ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#navList {
+	width: 100%;
+}
+
+#navList li {
+	list-style-type: none;
+	cursor: pointer;
+}
+
+.badgeContainer {
+	width: 91px;
+	height: 91px;
+	overflow: hidden;
+	background-image:url(../images/badge.png);
+	background-repeat: no-repeat;
+}
+
+.badgeContainer:hover {
+	opacity: 0.8;
+	cursor: pointer;
+	transform: scale(1.2, 1.2);
+
+	-moz-transition: all .8s ease-in !important;
+  -webkit-transition: all .8s ease-in !important;
+  -o-transition: all .8s ease-in !important;
+  transition: all .8s ease-in !important;
+}
+
+.OurTeam {
+	background-position:0px 0px;
+	margin-right: 200px;
+}
+
+.Designer {
+	background-position: -91px 0px;
+	margin-right: 200px;
+}
+
+.Developer {
+	background-position: -182px 0px;
+	margin-right: 200px;
+}
+
+.OurStory {
+	background-position: -273px 0px;
+}
+
+/* Main Contents */
+
+#cap {
+	display: flex;
+	justify-content: center;
+	font-size: 40px;
+	padding: 40px 0 40px 0;
+}
+
+
+#contents {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 8em;
+	margin-right: 8em;
+}
+
+/* Image Container */
+
+#imageContainer {
+	width: 500px;
+	height: 600px;
+	border-radius: 25px;
+	border: 1px solid #425277;
+	background-color: grey;
+	overflow: hidden;
+}
+
+#teamImages {
+  position: relative;
+  width: 4000px;
+  transition: all .75s;
+
+  display: flex;
+}
+
+#textContainer {
+	width: 500px;
+	height: 600px;
+	border-radius: 25px;
+	border: 1px solid #425277;
+	background-color: #91B5D5;
+}
+
+.textEl {
+	color: white;
+	font-size: 20px;
+  line-height: 1.5;
+  margin: 3em;
+}
