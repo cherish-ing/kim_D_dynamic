@@ -1,4 +1,4 @@
-### kim_D_dynamic
+## kim_D_dynamic
 ## Building Dynamic Team Page 
 TODO: Create a Team Bio page. The content contains each member’s bio, which can show by clicking.
 
